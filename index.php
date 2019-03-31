@@ -142,7 +142,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="service-item">
 								<span class="fa-stack fa-4x">
-									<i class="fa fa-cubes"></i>
+									<i class="fab fa-app-store"></i>
 								 </span>
 								<h4>
 									<strong>iOS Application Development</strong>
