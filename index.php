@@ -62,7 +62,7 @@
 				<h1>Patrick Cook</h1>
 			</div>
 			<div class="title-subtitle">
-				Software Engineer and Project Manager
+				Full Stack Software Engineer and iOS Developer
 			</div>
 			<div class="title-description">
 				<ul>
