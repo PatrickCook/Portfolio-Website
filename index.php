@@ -15,7 +15,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom CSS -->
-	<link href="css/stylish-portfolio.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 
 	<!-- Custom Fonts -->
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -37,13 +37,16 @@
 				<a href="#top" onclick=$( "#menu-close").click();>Home</a>
 			</li>
 			<li>
-				<a href="#about" onclick=$( "#menu-close").click();>About</a>
+				<a href="#aboutme" onclick=$( "#menu-close").click();>About</a>
 			</li>
 			<li>
-				<a href="#services" onclick=$( "#menu-close").click();>Skills</a>
+				<a href="#skills" onclick=$( "#menu-close").click();>Skills</a>
 			</li>
 			<li>
-				<a href="#portfolio" onclick=$( "#menu-close").click();>Gallery</a>
+				<a href="#portfolio" onclick=$( "#menu-close").click();>Projects</a>
+			</li>
+			<li>
+				<a href="#gallery" onclick=$( "#menu-close").click();>Gallery</a>
 			</li>
 			<li>
 				<a href="#contact" onclick=$( "#menu-close").click();>Contact</a>
@@ -59,42 +62,42 @@
 				<h1>Patrick Cook</h1>
 			</div>
 			<div class="title-subtitle">
-				Front-end Website Developer
+				Software Engineer and Project Manager
 			</div>
 			<div class="title-description">
 				<ul>
 					<li>805.207.0953</li>
-					<li><strong>BS Computer Science</strong></li>
+					<li><strong>MBA, BS Computer Science</strong></li>
 					<li>pcook01@calpoly.edu</li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<section id="services" class="aboutme">
+	<section id="aboutme" class="aboutme">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<center><img class="left-border" src="img/me.jpg" width="250px" height="250px"/>
+					<center><img class="left-border" src="img/profile-img.png" width="250px" height="250px" />
 					</center>
 				</div>
 				<div class="col-sm-3">
 					<div class="left-border">
 						<h4> &nbsp Education</h4>
-				  </div>
-					<p>My name is <strong>Patrick Cook </strong> and I am studying <strong>Computer Science</strong> at Calpoly San Luis Obispo. <br><br> Major:
-						<strong>BS Computer Science</strong><br> Standing:
-						<strong> Junior</strong><br> Expected to Graduate:<strong> 2018</strong><br> GPA: <strong>3.4</strong>
+					</div>
+					<p>My name is <strong>Patrick Cook </strong> and I am pursuing my MBA and recently graduated with a <strong>Computer Science</strong> from Calpoly San Luis Obispo. <br><br> Major:
+						<strong>MBA, BS Computer Science</strong><br> Standing:
+						<strong> Graduate Student </strong><br> Expected to Graduate:<strong> 2019</strong><br> GPA: <strong>3.4</strong>
 					</p>
 				</div>
 				<div class="col-sm-5">
 					<div class="left-border">
 						<h4> &nbsp A little bit about me</h4>
-				  </div>
+					</div>
 					<p>I am a creative software developer who enjoys fusing beautiful interfaces with elegant back end code. My <strong>skills</strong> include:</p>
 					<ul class="arrow-list">
 						<li>Designing website interfaces</li>
 						<li>Deploying full stack websites</li>
-						<li>Developing utilities in C like smake, du, etc</li>
+						<li>Developing scalable iOS applications with intuitive UIs</li>
 						<li>Using Adobe Suite to design and create graphics</li>
 						<li>Providing technical support </li>
 					</ul>
@@ -133,7 +136,7 @@
 								</h4>
 
 								<p>You need a beautiful database driven website that aims for scalability and simplicity. My website projects use Bootstrap for layout design, Javascript, and PHP for and database requests.</p>
-								<a href="#portfolio" class="btn btn-dark">View Examples</a>
+								<a href="#portfolio" class="btn btn-dark">See Dynamic websites!</a>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
@@ -142,11 +145,13 @@
 									<i class="fa fa-cubes"></i>
 								 </span>
 								<h4>
-									<strong>Low-level System Programming</strong>
+									<strong>iOS Application Development</strong>
 							  	</h4>
-								<p>I have completed low-level programming projects in C such as: Disk Usage commandline utility, smake (remake of make utility), Linear simulators and others!
+								<p>
+								 From gathering requirements, to prototyping, to development and testing, I bring attention to detail and
+								 and eye for design to each step of the process!
 								</p>
-								<a href="#portfolio" class="btn btn-dark">My Utilities!</a>
+								<a href="#portfolio" class="btn btn-dark">See iOS applications!</a>
 							</div>
 						</div>
 					</div>
@@ -154,7 +159,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- Portfolio -->
 	<section id="portfolio" class="portfolio">
 		<div class="container">
@@ -164,39 +168,65 @@
 					<hr class="medium">
 					<div class="row">
 						<div class="col-md-6">
+							<h3>Queue It</h3>
+							<div class="portfolio-item">
+								<img class="img-portfolio img-responsive left-border" src="img/queueit.png">
+								Swift, JQuery
+							</div>
+						</div>
+						<div class="col-md-6">
 							<h3>My Portfolio</h3>
 							<div class="portfolio-item">
-								<a href="#">
-                <img class="img-portfolio img-responsive left-border" src="img/my-porfolio.png">
-              </a>
+								<img class="img-portfolio img-responsive left-border" src="img/my-porfolio.png">
 								HTML5, CSS3, JQuery
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-6">
-							<h3>Next Level Athletes <small>In Progress... </small></h3>
+							<h3>Next Level Athletes iOS App</h3>
 							<div class="portfolio-item">
-								<a href="http://ec2-52-43-205-161.us-west-2.compute.amazonaws.com/index.php">
-                <img class="img-portfolio img-responsive left-border" src="img/nla-website.jpg">
-              </a>
-								HTML5, CSS3, Javascript, PHP
+	                		<img class="img-portfolio img-responsive left-border" src="img/nla-ios-screenshots.png">
+								Swift, Javascript, PHP
 							</div>
 						</div>
 						<div class="col-md-6">
-							<h3>Phi Sigma Kappa Website <small>In Progress... </small></h3>
+							<h3>Next Level Athletes Web Application</h3>
 							<div class="portfolio-item">
-								<a href="https://users.csc.calpoly.edu/~pcook01/pskslo/index.html">
-                <img class="img-portfolio img-responsive left-border" src="img/psk-website.jpg">
-              </a>
+	                		<img class="img-portfolio img-responsive left-border" src="img/nla-website.jpg">
 								HTML5, CSS3, Javascript, PHP
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-6">
-							<h3>My Recent Graphic Design Projects</h3>
+							<h3>Phi Sigma Kappa Website</h3>
 							<div class="portfolio-item">
-								<a href="#">
-                <img class="img-portfolio img-responsive left-border" src="img/gallery-website.jpg">
-              </a>
-								Photoshop, After Effects, Adobe Illustrator
+	                		<img class="img-portfolio img-responsive left-border" src="img/psk-website.jpg">
+						 		HTML5, CSS3, Javascript, PHP
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h3>EMR Tool</h3>
+							<div class="portfolio-item">
+								<img class="img-portfolio img-responsive left-border" src="img/emr-tool.jpg">
+								Java
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<h3>Du (Disk Usage Utility)</h3>
+							<div class="portfolio-item">
+								<img class="img-portfolio img-responsive left-border" src="img/du.jpg">
+								C
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h3>Agar.io<small>In Progress... </small></h3>
+							<div class="portfolio-item">
+								<img class="img-portfolio img-responsive left-border" src="img/agario.jpg">
+								Java
 							</div>
 						</div>
 					</div>
@@ -204,10 +234,9 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- Footer -->
 	<footer>
-		<div class="container">
+		<div id="contact" class="container">
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1 text-center">
 					<h4><strong>Patrick Cook</strong>
@@ -231,7 +260,6 @@
 							<a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
 						</li>
 					</ul>
-					<hr class="small">
 					<p class="text-muted">Copyright &copy; Patrick Cook 2016</p>
 				</div>
 			</div>
@@ -248,55 +276,55 @@
 	<!-- Custom Theme JavaScript -->
 	<script>
 		// Closes the sidebar menu
-		$( "#menu-close" ).click( function ( e ) {
+		$("#menu-close").click(function(e) {
 			e.preventDefault();
-			$( "#sidebar-wrapper" ).toggleClass( "active" );
-		} );
+			$("#sidebar-wrapper").toggleClass("active");
+		});
 		// Opens the sidebar menu
-		$( "#menu-toggle" ).click( function ( e ) {
+		$("#menu-toggle").click(function(e) {
 			e.preventDefault();
-			$( "#sidebar-wrapper" ).toggleClass( "active" );
-		} );
+			$("#sidebar-wrapper").toggleClass("active");
+		});
 		// Scrolls to the selected menu item on the page
-		$( function () {
-			$( 'a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])' ).click( function () {
-				if ( location.pathname.replace( /^\//, '' ) == this.pathname.replace( /^\//, '' ) || location.hostname == this.hostname ) {
-					var target = $( this.hash );
-					target = target.length ? target : $( '[name=' + this.hash.slice( 1 ) + ']' );
-					if ( target.length ) {
-						$( 'html,body' ).animate( {
+		$(function() {
+			$('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html,body').animate({
 							scrollTop: target.offset().top
-						}, 1000 );
+						}, 1000);
 						return false;
 					}
 				}
-			} );
-		} );
+			});
+		});
 		//#to-top button appears after scrolling
 		var fixed = false;
-		$( document ).scroll( function () {
-			if ( $( this ).scrollTop() > 250 ) {
-				if ( !fixed ) {
+		$(document).scroll(function() {
+			if ($(this).scrollTop() > 250) {
+				if (!fixed) {
 					fixed = true;
 					// $('#to-top').css({position:'fixed', display:'block'});
-					$( '#to-top' ).show( "slow", function () {
-						$( '#to-top' ).css( {
+					$('#to-top').show("slow", function() {
+						$('#to-top').css({
 							position: 'fixed',
 							display: 'block'
-						} );
-					} );
+						});
+					});
 				}
 			} else {
-				if ( fixed ) {
+				if (fixed) {
 					fixed = false;
-					$( '#to-top' ).hide( "slow", function () {
-						$( '#to-top' ).css( {
+					$('#to-top').hide("slow", function() {
+						$('#to-top').css({
 							display: 'none'
-						} );
-					} );
+						});
+					});
 				}
 			}
-		} );
+		});
 	</script>
 
 </body>
