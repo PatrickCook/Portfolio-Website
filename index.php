@@ -116,19 +116,19 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="service-item">
 								<span class="fa-stack fa-4x">
-									<i class="fa fa-laptop fa-stack-1x"></i>
+									<i class="fa fa-react fa-stack-1x"></i>
 								</span>
 								<h4>
-									<strong>Static Website Development</strong>
+									<strong>RESTful API Development</strong>
 								</h4>
-								<p>Do you need a website that just sticks with little to no maintenance? I use Bootstrap 4 to layout and design my websites. This allows me to create a fluid design that isn't too clunky or stark, it's just right.</p>
-								<a href="#portfolio" class="btn btn-dark">See Static Websites</a>
+								<p>I have experience building APIs from the ground up. Whether it be data modeling, endpoint decisions or API authentication, I spend time thinking before doing.</p>
+								<a href="#portfolio" class="btn btn-dark">See APIs</a>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="service-item">
 								<span class="fa-stack fa-4x">
-									<i class="fa fa-spinner fa-spin"></i>
+									<i class="fa fa-react fa-spin"></i>
 								 </span>
 
 								<h4>
