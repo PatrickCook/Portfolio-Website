@@ -116,7 +116,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="service-item">
 								<span class="fa-stack fa-4x">
-									<i class="fa fa-react fa-stack-1x"></i>
+									<i class="fas fa-server"></i>
 								</span>
 								<h4>
 									<strong>RESTful API Development</strong>
@@ -128,7 +128,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="service-item">
 								<span class="fa-stack fa-4x">
-									<i class="fa fa-react fa-spin"></i>
+									<i class="fab fa-react fa-spin"></i>
 								 </span>
 
 								<h4>
