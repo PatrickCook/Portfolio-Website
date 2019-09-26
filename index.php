@@ -158,9 +158,15 @@
 				</div>
 			</div>
 		</div>
-		<button
-		Inquiring about a project?
-		<a href = "mailto: patrickcook28@icloud.com" class="btn">Email me!</a>
+		<div style="margin: auto;">
+			<p>Inquiring about a project? </p>
+			<a href = "mailto: patrickcook28@icloud.com">
+				<button type="button" class="btn btn-success">
+					Email me!
+				</button>
+			</a>
+		</div>
+
 	</section>
 	<!-- Portfolio -->
 	<section id="portfolio" class="portfolio">
