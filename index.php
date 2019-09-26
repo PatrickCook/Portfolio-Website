@@ -158,7 +158,7 @@
 				</div>
 			</div>
 		</div>
-		<div style="margin: auto;">
+		<div style="padding-left: 50vw;">
 			<p>Inquiring about a project? </p>
 			<a href = "mailto: patrickcook28@icloud.com">
 				<button type="button" class="btn btn-success">
