@@ -82,16 +82,16 @@
 				</div>
 				<div class="col-sm-3">
 					<div class="left-border">
-						<h4> &nbsp Education</h4>
+						<h4>Education</h4>
 					</div>
-					<p>My name is <strong>Patrick Cook </strong> and I am pursuing my MBA and recently graduated with a <strong>Computer Science</strong> from Calpoly San Luis Obispo. <br><br> Major:
-						<strong>MBA, BS Computer Science</strong><br> Standing:
-						<strong> Graduate Student </strong><br> Expected to Graduate:<strong> 2019</strong><br> GPA: <strong>3.4</strong>
+					<p>My name is <strong>Patrick Cook </strong> and I recently graduated with an <strong>MBA and Computer Science</strong> degree from Calpoly San Luis Obispo. <br><br> Major:
+						<strong>MBA, BS Computer Science</strong><br>
+					  GPA: <strong>3.4</strong>
 					</p>
 				</div>
 				<div class="col-sm-5">
 					<div class="left-border">
-						<h4> &nbsp A little bit about me</h4>
+						<h4>A little bit about me</h4>
 					</div>
 					<p>I am a creative software developer who enjoys fusing beautiful interfaces with elegant back end code. My <strong>skills</strong> include:</p>
 					<ul class="arrow-list">
@@ -135,7 +135,7 @@
 								<strong>Dynamic Website Development</strong>
 								</h4>
 
-								<p>You need a beautiful database driven website that aims for scalability and simplicity. My website projects use Bootstrap for layout design, Javascript, and PHP for and database requests.</p>
+								<p>You need a beautiful database driven website that aims for scalability and simplicity. My website projects use React.js for the front-end development, Ruby on Rails 5 or Node.js for backend APIs, and either a mysql or postgresql database.</p>
 								<a href="#portfolio" class="btn btn-dark">See Dynamic websites!</a>
 							</div>
 						</div>
@@ -158,6 +158,9 @@
 				</div>
 			</div>
 		</div>
+		<button
+		Inquiring about a project?
+		<a href = "mailto: patrickcook28@icloud.com" class="btn">Email me!</a>
 	</section>
 	<!-- Portfolio -->
 	<section id="portfolio" class="portfolio">
@@ -206,14 +209,14 @@
 						 		HTML5, CSS3, Javascript, PHP
 							</div>
 						</div>
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<h3>EMR Tool</h3>
 							<div class="portfolio-item">
 								<img class="img-portfolio img-responsive left-border" src="img/emr-tool.jpg">
 								Java
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="row">
 						<div class="col-md-6">
 							<h3>Du (Disk Usage Utility)</h3>
@@ -222,13 +225,13 @@
 								C
 							</div>
 						</div>
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<h3>Agar.io<small>In Progress... </small></h3>
 							<div class="portfolio-item">
 								<img class="img-portfolio img-responsive left-border" src="img/agario.jpg">
 								Java
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
